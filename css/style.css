@@ -1,0 +1,145 @@
+.box {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+/* header */
+header {
+  background-color: #284069;
+  padding: 53px 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 54px;
+  height: 54px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoimg {
+  width: calc(38 / 54 * 100%);
+  height: calc(38 / 54 * 100%);
+}
+
+.header_ul {
+  display: flex;
+}
+
+.header_middle_li {
+  margin-inline: 50px;
+}
+.active,
+.inactive {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.58px;
+  color: #ffffff;
+}
+
+.active {
+  color: #e29770;
+}
+
+.signinicon {
+  width: 40px;
+  height: 40px;
+}
+
+.signinimg {
+  width: 100%;
+  height: 100%;
+}
+
+/* section */
+.head_section {
+  width: calc(1244 / 1440 * 100%);
+  margin: 94px 98px;
+}
+
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  color: #942c0d;
+  margin-bottom: 68px;
+}
+
+.middle_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 22px;
+  justify-content: space-between;
+}
+.middle_section_box {
+  width: 400px;
+  height: 354px;
+  border-radius: 10px;
+  background: #ddeaf8;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: flex-end;
+}
+
+button {
+  width: 145px;
+  height: 44px;
+  background-color: #e29770;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+/* footer */
+footer {
+  width: 1440px;
+  background-color: #284069;
+  padding: 70px 643px;
+}
+
+.footer_title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+p {
+  border: 3px solid #ffffff;
+  margin-block: 8px 32px;
+}
+
+.footer_nav {
+  margin-inline: 18px;
+}
+
+.footer_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.tiktok,
+.instagram,
+.instagram {
+  width: 100%;
+  height: 100%;
+}
