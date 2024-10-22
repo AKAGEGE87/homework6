@@ -12,28 +12,12 @@ header {
   align-items: center;
 }
 
-.logo {
-  width: 54px;
-  height: 54px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logoimg {
-  width: calc(38 / 54 * 100%);
-  height: calc(38 / 54 * 100%);
-}
-
 .header_ul {
   display: flex;
+  column-gap: 50px;
 }
 
-.header_middle_li {
-  margin-inline: 50px;
-}
+
 .active,
 .inactive {
   font-family: "Ubuntu", sans-serif;
@@ -47,7 +31,7 @@ header {
   color: #e29770;
 }
 
-.signinicon {
+/* .signinicon {
   width: 40px;
   height: 40px;
 }
@@ -55,12 +39,12 @@ header {
 .signinimg {
   width: 100%;
   height: 100%;
-}
+} */
 
 /* section */
 .head_section {
   width: calc(1244 / 1440 * 100%);
-  margin: 94px 98px;
+  margin: 94px auto;
 }
 
 .title {
@@ -79,14 +63,13 @@ header {
   justify-content: space-between;
 }
 .middle_section_box {
-  width: 400px;
-  height: 354px;
+flex:1 1 400px;
   border-radius: 10px;
   background: #ddeaf8;
   padding: 30px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
+flex-direction: column;
+ align-items: flex-end;
   row-gap: 30px;
 }
 
@@ -110,7 +93,7 @@ button {
 
 /* footer */
 footer {
-  width: 1440px;
+  width: 100%;
   background-color: #284069;
   padding: 70px;
   display: flex;
